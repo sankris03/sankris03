@@ -19,10 +19,7 @@ jobs:
       - run:
           name: "Say hello"
           command: |
-            "echo Hello, World!" > /tmp/art-1;
-            mkdir /tmp/artifacts;
-            echo "my artificats files in dir" > /tmp/artificats/art-2;
-
+            "echo Hello, World!"
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
